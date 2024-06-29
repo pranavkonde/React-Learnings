@@ -10,6 +10,8 @@ import UseEffectEg2 from "./components/Hooks/UseEffect/UseEffectEg2";
 import UseContext from "./components/Hooks/UseContext/UseContext";
 import UseReducer from "./components/Hooks/UseReducer/UseReducer";
 import UseRef from "./components/Hooks/UseRef/UseRef";
+import UseMemo from "./components/Hooks/UseMemo/UseMemo";
+import ReactHookForm from "./components/ReactHookForm/ReactHookForm";
 
 function App() {
   return (
@@ -29,7 +31,7 @@ function App() {
 
      {/* Hooks */}
 
-     <UseStateEg1/>
+     {/* <UseStateEg1/>
      <UseStateEg2/>
 
      <UseEffectEg1/>
@@ -42,6 +44,14 @@ function App() {
      <UseReducer/>
 
       <UseRef/>
+
+
+      <UseMemo/> */}
+
+
+      {/* React Hook Form */}
+
+      <ReactHookForm/>
     </>
   );
 }
